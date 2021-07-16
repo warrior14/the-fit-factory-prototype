@@ -1,0 +1,29 @@
+.navBar {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.workoutBundle {
+    border: 1px solid black;
+    height: 30em;
+    width: 30em;
+}
+.exerciseCard {
+    border: 1px solid black;
+    height: 20em;
+    width: 20em;
+}
+.setsInput {
+    width: 20px;
+}
+.repsInput {
+    width: 20px;
+}
+.notesInput {
+    height: 10em;
+    width: 22em;
+}
+#timer {
+    font-size: 10em;
+}

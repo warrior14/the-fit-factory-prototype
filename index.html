@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body id="app">
+<h1>The Fit Factory</h1>
+<div id="timer"></div>
+<nav class="navBar">
+    <p>Workout Hub</p>
+    <p>Amrs</p>
+    <p>Legs</p>
+    <p>Chest</p>
+    <p>Back</p>
+</nav>
+<div id="workoutBundle" class="workoutBundle">
+    <h2>Arms</h2>
+    <div id="exercise" class="exerciseCard">
+        <h3>Bicep Curl <button id="playButton">Start Workout</button><button id="stopButton">Stop Workout</button><h3/>
+        <br>
+        Sets: <input id="setsInput" class="setsInput" value="4"/>
+        <br>
+        Set Time: <input id="setTimeInput" class="setsInput" value="1"/>
+        <br>
+        CoolDown Time: <input id="setCoolDownInput" class="setsInput" value="1"/>
+        <br>
+        Reps: <input class="repsInput" value="10"/>
+        <br>
+        notes:
+        <br>
+        <textarea class="notesInput">Push as hard as I can</textarea>
+    </div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
